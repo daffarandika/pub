@@ -1,0 +1,51 @@
+[0.000000] (-) TimerEvent: {}
+[0.000260] (pub) JobQueued: {'identifier': 'pub', 'dependencies': OrderedDict()}
+[0.000301] (pub) JobStarted: {'identifier': 'pub'}
+[0.099146] (-) TimerEvent: {}
+[0.199422] (-) TimerEvent: {}
+[0.299687] (-) TimerEvent: {}
+[0.399903] (-) TimerEvent: {}
+[0.500076] (-) TimerEvent: {}
+[0.600337] (-) TimerEvent: {}
+[0.700601] (-) TimerEvent: {}
+[0.721524] (pub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/pub', 'build', '--build-base', '/ros_ws/src/build/pub/build', 'install', '--record', '/ros_ws/src/build/pub/install.log', '--single-version-externally-managed'], 'cwd': '/ros_ws/src/pub', 'env': {'SHLVL': '0', 'LD_LIBRARY_PATH': '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'iron', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PATH': '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/opt/ros/iron', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/ros_ws/src/build/pub', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/ros_ws/src/build/pub/prefix_override:/ros_ws/src/install/pub/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'COLCON': '1'}, 'shell': False}
+[0.800748] (-) TimerEvent: {}
+[0.901009] (-) TimerEvent: {}
+[0.961208] (pub) StdoutLine: {'line': b'running egg_info\n'}
+[0.962163] (pub) StdoutLine: {'line': b'creating ../build/pub/pub.egg-info\n'}
+[0.962386] (pub) StdoutLine: {'line': b'writing ../build/pub/pub.egg-info/PKG-INFO\n'}
+[0.962544] (pub) StdoutLine: {'line': b'writing dependency_links to ../build/pub/pub.egg-info/dependency_links.txt\n'}
+[0.962617] (pub) StdoutLine: {'line': b'writing entry points to ../build/pub/pub.egg-info/entry_points.txt\n'}
+[0.962686] (pub) StdoutLine: {'line': b'writing requirements to ../build/pub/pub.egg-info/requires.txt\n'}
+[0.962749] (pub) StdoutLine: {'line': b'writing top-level names to ../build/pub/pub.egg-info/top_level.txt\n'}
+[0.962814] (pub) StdoutLine: {'line': b"writing manifest file '../build/pub/pub.egg-info/SOURCES.txt'\n"}
+[0.964129] (pub) StdoutLine: {'line': b"reading manifest file '../build/pub/pub.egg-info/SOURCES.txt'\n"}
+[0.964312] (pub) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[0.964827] (pub) StdoutLine: {'line': b"writing manifest file '../build/pub/pub.egg-info/SOURCES.txt'\n"}
+[0.964969] (pub) StdoutLine: {'line': b'running build\n'}
+[0.965044] (pub) StdoutLine: {'line': b'running build_py\n'}
+[0.965199] (pub) StdoutLine: {'line': b'creating /ros_ws/src/build/pub/build\n'}
+[0.965360] (pub) StdoutLine: {'line': b'creating /ros_ws/src/build/pub/build/lib\n'}
+[0.965429] (pub) StdoutLine: {'line': b'creating /ros_ws/src/build/pub/build/lib/pub\n'}
+[0.965491] (pub) StdoutLine: {'line': b'copying pub/__init__.py -> /ros_ws/src/build/pub/build/lib/pub\n'}
+[0.965601] (pub) StdoutLine: {'line': b'running install\n'}
+[0.965720] (pub) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[0.965818] (pub) StderrLine: {'line': b'  warnings.warn(\n'}
+[0.965979] (pub) StdoutLine: {'line': b'running install_lib\n'}
+[0.966765] (pub) StdoutLine: {'line': b'creating /ros_ws/src/install/pub/lib/python3.10/site-packages/pub\n'}
+[0.966892] (pub) StdoutLine: {'line': b'copying /ros_ws/src/build/pub/build/lib/pub/__init__.py -> /ros_ws/src/install/pub/lib/python3.10/site-packages/pub\n'}
+[0.967453] (pub) StdoutLine: {'line': b'byte-compiling /ros_ws/src/install/pub/lib/python3.10/site-packages/pub/__init__.py to __init__.cpython-310.pyc\n'}
+[0.967735] (pub) StdoutLine: {'line': b'running install_data\n'}
+[0.968154] (pub) StdoutLine: {'line': b'creating /ros_ws/src/install/pub/share/ament_index\n'}
+[0.968297] (pub) StdoutLine: {'line': b'creating /ros_ws/src/install/pub/share/ament_index/resource_index\n'}
+[0.968369] (pub) StdoutLine: {'line': b'creating /ros_ws/src/install/pub/share/ament_index/resource_index/packages\n'}
+[0.968505] (pub) StdoutLine: {'line': b'copying resource/pub -> /ros_ws/src/install/pub/share/ament_index/resource_index/packages\n'}
+[0.968641] (pub) StdoutLine: {'line': b'copying package.xml -> /ros_ws/src/install/pub/share/pub\n'}
+[0.968777] (pub) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.970459] (pub) StdoutLine: {'line': b'Copying ../build/pub/pub.egg-info to /ros_ws/src/install/pub/lib/python3.10/site-packages/pub-0.0.0-py3.10.egg-info\n'}
+[0.972065] (pub) StdoutLine: {'line': b'running install_scripts\n'}
+[0.993426] (pub) StdoutLine: {'line': b"writing list of installed files to '/ros_ws/src/build/pub/install.log'\n"}
+[1.001110] (-) TimerEvent: {}
+[1.015880] (pub) CommandEnded: {'returncode': 0}
+[1.070027] (pub) JobEnded: {'identifier': 'pub', 'rc': 0}
+[1.071080] (-) EventReactorShutdown: {}
